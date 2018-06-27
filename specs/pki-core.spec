@@ -73,9 +73,8 @@ Version:                10.5.9
 %else
 Version:                10.5.9
 %define fedora_release  1
-%define fedora_stage    0
+%define fedora_stage    1.zultron
 %define default_release %{fedora_release}.%{fedora_stage}
-#%define default_release %{fedora_release}
 %endif
 
 %if 0%{?use_pki_release}
