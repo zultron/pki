@@ -205,7 +205,7 @@ BuildRequires:    zlib-devel
 #        upon which this tarball was originally based.
 Source0:          http://pki.fedoraproject.org/pki/sources/%{name}/%{version}/%{release}/rhel/%{name}-%{version}%{?prerel}.tar.gz
 %else
-Source0:          http://pki.fedoraproject.org/pki/sources/%{name}/%{version}/%{release}/%{name}-%{version}%{?prerel}.tar.gz
+Source0:          %{name}-%{version}%{?prerel}.tar.gz
 %endif
 
 # Obtain version phase number (e. g. - used by "alpha", "beta", etc.)
